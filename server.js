@@ -27,7 +27,7 @@ cors_proxy
 		originBlacklist: originBlacklist,
 		originWhitelist: "http://localhost:5500", //originWhitelist,
 		requireHeader: ["origin", "x-requested-with"],
-		checkRateLimit: checkRateLimit,
+		// checkRateLimit: checkRateLimit, // off rate limit option
 		removeHeaders: [
 			"cookie",
 			"cookie2",
